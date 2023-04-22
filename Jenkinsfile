@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'atem'
+    env.IMAGE = 'atemnkeng01/atem'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/aasong88/argocd-amazon-manifest.git'
