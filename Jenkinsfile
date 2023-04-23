@@ -5,6 +5,7 @@ node {
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/aasong88/argocd-amazon-manifest.git'
+    }
 
     stage('Update GIT') {
             script {
